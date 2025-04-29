@@ -1,0 +1,60 @@
+# =====================
+# Git Ignore File
+# For: Environment Setup Repo
+# =====================
+
+# --- R-related files ---
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# --- Python-related files ---
+__pycache__/
+*.py[cod]
+*.pyo
+
+# --- Jupyter Notebooks (if used) ---
+.ipynb_checkpoints/
+
+# --- MacOS System Files ---
+.DS_Store
+
+# --- Linux/Unix temp files ---
+*.swp
+*~
+
+# --- Virtual Environments ---
+.venv/
+env/
+renv/
+.Renviron
+.Python
+*.Rprofile
+
+# --- Logs, cache, and temp files ---
+*.log
+*.tmp
+.cache/
+*.bak
+
+# --- Dependency/output files (optional) ---
+*.csv
+*.tsv
+*.rds
+*.xlsx
+*.json
+
+# --- Secrets & config files ---
+.env
+*.key
+*.pem
+
+# --- Plots or generated figures ---
+*.png
+*.pdf
+*.svg
+*.jpg
+
+# --- GitHub specific ---
+.gitignore
